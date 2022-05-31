@@ -1,7 +1,7 @@
 {
   "name": "RPA-OutputMethodsActivities",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "Get text from Notepad.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.1]",
@@ -45,8 +45,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "2f926d78-cf37-44f6-b604-64db1f3254f0",
+      "filePath": "Get text from Notepad.xaml",
+      "uniqueId": "a306dda7-e836-4a58-8cd8-f575e5db2c6e",
       "input": [],
       "output": []
     }
