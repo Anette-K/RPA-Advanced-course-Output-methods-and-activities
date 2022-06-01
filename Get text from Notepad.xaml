@@ -95,8 +95,8 @@
                 <OutArgument x:TypeArguments="x:String">[RetrieveNotepadText]</OutArgument>
               </ui:GetValue.Value>
             </ui:GetValue>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[RetrieveNotepadText]" />
-            <ui:CloseApplication DisplayName="Close Application 'notepad.exe What'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
+            <ui:LogMessage DisplayName="Displaying the retrieved text" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[RetrieveNotepadText]" />
+            <ui:CloseApplication DisplayName="Close Notepad Application" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
               <ui:CloseApplication.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="ee9d765f-9694-4a96-a01f-0b6011fd0573" InformativeScreenshot="5e8ce6af1cca8407a6d57d19f8c59072">
                   <ui:Target.TimeoutMS>
